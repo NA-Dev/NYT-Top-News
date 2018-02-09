@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NTY Top Stories</title>
+
+  <link rel="icon" 
+  href="./assets/images/favicon-newspaper.ico" type="image/x-icon">
+
+  <!-- Bootstrap Stylesheet -->
+  <link 
+  rel="stylesheet" 
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+  crossorigin="anonymous">
+
+  <!-- Custom Stylesheet-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  </link>
+
+  <!-- Font Awesome Icons-->
+  <script defer 
+  src="https://use.fontawesome.com/releases/v5.0.6/js/all.js">
+  </script>
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <main>
+      <div class="jumbotron">
+        <div class="container">
+          <h1>
+            <i class="far fa-newspaper mr-3"></i>
+            What's News Today?
+          </h1>
+          <p class="lead">Select a section below to see the top ten New York Times 
+            stories from that category. To filter the results, enter a search term 
+            before choosing a section.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="sections text-center mb-3">
+          <input type="search" 
+          id="searchTerm" placeholder=" Search term (optional)">
+          <!-- Section buttons will go here -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <h3><strong>
+                Top Stories
+              </strong></h3>
+            </div>
+          </div>
+          <div class="results">
+          <!-- Results will go here -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- JQuery and Bootstrap Scripts -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+  </script>
+
+  <script 
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+  crossorigin="anonymous">
+  </script>
+
+  <script 
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+  crossorigin="anonymous">
+  </script>
+
+  <!-- Moment.js -->
+  <script 
+  src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js">
+  </script>
+  <script 
+  src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data.min.js">
+  </script>
+
+
+
+  <!-- App Javascript -->
+  <script 
+  type="text/javascript" 
+  src="./assets/javascript/keys.js">
+  </script>
+
+  <script 
+  type="text/javascript" 
+  src="./assets/javascript/topNews.js">
+  </script>
+
+</body>
+</html>

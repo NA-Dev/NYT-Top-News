@@ -1,0 +1,21 @@
+html {
+  background-color: #999;
+}
+
+body {
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  max-width: 900px;
+}
+
+.jumbotron {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("../images/bg.jpg");
+  background-size: cover;
+  color: #fff;
+}
+

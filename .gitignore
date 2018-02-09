@@ -1,0 +1,5 @@
+# dependencies
+/node_modules
+
+# keys
+/assets/javascript/keys.js
